@@ -26,5 +26,8 @@ public class Main {
         impressora1.setTipo(colorida);
         impressora1.imprimir("papel timbrado");
 
+        Impressora impressora3 = new Impressora(new Termica());
+        impressora3.imprimir("cupom fiscal");
+
     }
 }
