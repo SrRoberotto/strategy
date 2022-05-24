@@ -19,7 +19,7 @@ public class Impressora {
         this.impressora = tipo;
     }
 
-    void imprimir (String str){
-        impressora.imprimir(str);
+    void imprimir (String texto){
+        impressora.imprimir(texto);
     }
 }
